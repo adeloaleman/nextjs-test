@@ -99,7 +99,7 @@ export default function NavCollapse({
         ? "white"
         : open && level > 1
           ? theme.palette.primary.main
-          : theme.palette.text.secondary,    
+          : theme.palette.text.secondary,
     borderRadius: `${customizer.borderRadius}px`,
   }));
 
